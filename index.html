@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Madhusudan's Portfolio - Full Stack Developer specializing in web development and software engineering">
+    <title>Madhusudan | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script>
+    // Disable image saving
+    document.addEventListener('keydown', function(e) {
+      // Prevent Ctrl+S, Cmd+S
+      if ((e.ctrlKey || e.metaKey) && e.keyCode === 83) {
+        e.preventDefault();
+      }
+      
+      // Prevent Print Screen
+      if (e.keyCode === 44) {
+        e.preventDefault();
+      }
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Madhusudan</span></h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>
+  I am a passionate developer with strong frontend skills in HTML, CSS, and JavaScript. Currently, I'm expanding my knowledge in backend technologies to become a well-rounded Full Stack Developer.
+</p>
+                    <div class="hero-btns">
+                        <a href="Madhusudan_cv_7719.pdf" class="btn primary-btn">Download CV</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/Madhusudan04337" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/madhu-sudan-0006a429a/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Profile.png" alt="Madhusudan" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/Profile.png" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Full Stack Developer & Web Designer</h3>
+                    <p>
+  I am a passionate developer with expertise in building responsive and dynamic web applications. I have strong frontend development skills and am currently enhancing my backend capabilities to become a well-rounded Full Stack Developer. I strive to create seamless user experiences that drive business growth.
+</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <p>Madhusudan</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <p>madhusudan27102005@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Location:</span>
+                            <p>Chennai, India</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Freelance:</span>
+                            <p>Available</p>
+                        </div>
+                    </div>
+                    <a href="Madhusudan_cv_7719.pdf" class="btn primary-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+  <div class="container">
+    <div class="section-header">
+      <h2>My Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-content">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>HTML/CSS</p>
+              <p>95%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress html-css" data-width="95" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>JavaScript</p>
+              <p>90%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress javascript" data-width="90" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Bootstrap 5</p>
+              <p>85%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress bootstrap" data-width="85" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Python</p>
+              <p>80%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress python" data-width="80" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Java</p>
+              <p>75%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress java" data-width="75" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>SQL</p>
+              <p>70%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress sql" data-width="70" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Portfolio</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="mini">Mini Projects</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio1.jpg" alt="Daily Bakes E-commerce">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Daily Bakes</h3>
+                        <p>E-commerce Website (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio2.jpg" alt="Foodie E-commerce">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Foodie</h3>
+                        <p>E-commerce Website (Main Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio3.jpg" alt="KFC Recreate">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>KFC Recreate</h3>
+                        <p>Website Clone (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio4.jpg" alt="Language Translator">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Language Translator</h3>
+                        <p>Web App (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio5.jpg" alt="Nexila Technologies">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Nexila Technologies</h3>
+                        <p>Institute Website (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mini">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio6.jpg" alt="QR Generator">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>QR Generator</h3>
+                        <p>Web Tool (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mini">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio7.jpg" alt="Text to Speech">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Text to Speech</h3>
+                        <p>Web Tool (Mini Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio8.jpg" alt="Event Registration">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Event Registration</h3>
+                        <p>Website (Main Project)</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio9.jpg" alt="Animal Identification Game">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Animal Identification Game</h3>
+                        <p>MIT App Inventor</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-content">
+                <div class="certification-tabs">
+                    <div class="certification-tabs-list">
+                        <button class="active" data-tab="courses">Course Completion</button>
+                        <button data-tab="webinars">Webinars</button>
+                        <button data-tab="internships">Internships</button>
+                        <button data-tab="activities">Extra Activities</button>
+                    </div>
+
+                    <div class="certification-grid active" id="courses-tab">
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Python Certificate.png" alt="Python Certificate" class="certificate-image" data-title="Python Course - GeeksforGeeks">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Python Course</h3>
+                                <p>GeeksforGeeks</p>
+                                <p class="certification-date">August 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/OPPS Using Python.jpg" alt="Python Certificate" class="certificate-image" data-title="Object Oriented Programming Using Python - Infosys | Springboard">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Object Oriented Programming Using Python</h3>
+                                <p>Infosys | Springboard</p>
+                                <p class="certification-date">October 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Fundamentals Of Web Development.png" alt="Web Development Certificate" class="certificate-image" data-title="Fundamentals Of Web Development - Ace Academy, Sunstone">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Fundamentals Of Web Development</h3>
+                                <p>Ace Academy, Sunstone</p>
+                                <p class="certification-date">December 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Tableau.jpg" alt="Data Analytics Certificate" class="certificate-image" data-title="Tableau - Ace Academy, Sunstone">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Tableau</h3>
+                                <p>Ace Academy, Sunstone</p>
+                                <p class="certification-date">December 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/MIT App Inventor .jpg" alt="Data Analytics Certificate" class="certificate-image" data-title="MIT App Inventor - Ace Academy, Sunstone">
+                            </div>
+                            <div class="certification-info">
+                                <h3>MIT App Inventor</h3>
+                                <p>Ace Academy, Sunstone</p>
+                                <p class="certification-date">January 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Fundamentals of Git and GitHub .jpg" alt="Web Development Certificate" class="certificate-image" data-title="Fundamentals of Git and GitHub - Ace Academy, Sunstone">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Fundamentals of Git and GitHub</h3>
+                                <p>Ace Academy, Sunstone</p>
+                                <p class="certification-date">February 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Data Analytics Certificate.jpg" alt="Web Development Certificate" class="certificate-image" data-title="Data Analytics With Excel - Ace Academy, Sunstone">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Data Analytics With Excel</h3>
+                                <p>Ace Academy, Sunstone</p>
+                                <p class="certification-date">February 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Naan mudalvan.jpg" alt="IBM SkillsBuild Certificate" class="certificate-image" data-title="TNSDC - FEWD & Cloud - IBM SkillsBuild">
+                            </div>
+                            <div class="certification-info">
+                                <h3>TNSDC - FEWD & Cloud</h3>
+                                <p>IBM SkillsBuild</p>
+                                <p class="certification-date">March 2025</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-grid" id="webinars-tab">
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/IPR Event.jpg" alt="IP Awareness Certificate" class="certificate-image" data-title="IP Awareness/Training Program - Intellectual Property Office, India">
+                            </div>
+                            <div class="certification-info">
+                                <h3>IP Awareness/Training Program</h3>
+                                <p>Intellectual Property Office, India</p>
+                                <p class="certification-date">February 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Fundamentals of SQL Webinar.jpg" alt="Webinar Certificate" class="certificate-image" data-title="Master SQL Fundamentals - WSCUBE TECH | Online Workshop">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Master SQL Fundamentals</h3>
+                                <p>WSCUBE TECH | Online Workshop</p>
+                                <p class="certification-date">September 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Data visualization using Excel webinar.jpg" alt="Webinar Certificate" class="certificate-image" data-title="Data visualization using Excel - WSCUBE TECH | Online Workshop">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Data visualization using Excel</h3>
+                                <p>WSCUBE TECH | Online Workshop</p>
+                                <p class="certification-date">December 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-grid" id="internships-tab">
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/FrontEnd Development.jpg" alt="Internship Certificate" class="certificate-image" data-title="Frontend Development Internship - Nexila Technologies">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Frontend Development Internship</h3>
+                                <p>Nexila Technologies</p>
+                                <p class="certification-date">Summer 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-grid" id="activities-tab">
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Debugging3.jpeg" alt="Hackathon Certificate" class="certificate-image" data-title="Debugging Winner - Brain Code 2025">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Debugging Winner</h3>
+                                <p>Brain Code 2025</p>
+                                <p class="certification-date">January 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Web Designing.jpeg" alt="Hackathon Certificate" class="certificate-image" data-title="Web Designing Runner - Brain Code 2025">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Web Designing Runner</h3>
+                                <p>Brain Code 2025</p>
+                                <p class="certification-date">January 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Code-O-Festa.jpeg" alt="Hackathon Certificate" class="certificate-image" data-title="Code-O-Festa 3rd Price - Transcode Forum">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Code-O-Festa 3<sup>rd</sup> Price</h3>
+                                <p>Transcode Forum</p>
+                                <p class="certification-date">February 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-card">
+                            <div class="certification-img">
+                                <img src="images/Debugging 2.jpeg" alt="Hackathon Certificate" class="certificate-image" data-title="Debugging Runner - New Logic 2k25">
+                            </div>
+                            <div class="certification-info">
+                                <h3>Debugging Runner</h3>
+                                <p>New Logic 2k25</p>
+                                <p class="certification-date">February 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificate-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div class="modal-image-container">
+                <img id="modal-image" src="/placeholder.svg" alt="Certificate">
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Chennai, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon email-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>madhusudan27102005@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon phone-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 9360331266</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <!-- Updated form with AJAX submission -->
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div id="form-message" class="form-message"></div>
+                        <button type="submit" class="btn primary-btn" id="submit-btn">
+                            <span class="btn-content">
+                                Send Message
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <p>Madhusudan</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Madhusudan04337" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/madhu-sudan-0006a429a/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Madhusudan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
